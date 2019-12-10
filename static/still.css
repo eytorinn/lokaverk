@@ -1,0 +1,39 @@
+body {
+    background-color: royalblue;
+    text-align: center;
+}
+
+h3 {
+    color: whitesmoke;
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+
+#tafla {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 75%;
+    margin:auto
+}
+
+#tafla td, #tafla th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#tafla tr:nth-child(even){background-color: #f2f2f2;}
+
+#tafla tr:hover {background-color: #ddd;}
+
+#tafla th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #16a7ff;
+  color: white;
+
+}
